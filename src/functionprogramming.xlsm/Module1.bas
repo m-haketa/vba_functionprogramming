@@ -27,6 +27,14 @@ Sub test2()
   arr2 = filterLargerThan10(arr).Run
 End Sub
 
+Sub test3()
+  Dim add2
+  Set add2 = F("add", 2)
+  
+  Debug.Print add2(3).Run
+
+End Sub
+
 Sub maptest()
   Dim addFunc
   Set addFunc = F("add")
